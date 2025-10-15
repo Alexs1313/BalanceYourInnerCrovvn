@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01030CF5C1EC4F36A0442424 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8689B690B7E24474A6A6E0F7 /* Montserrat-SemiBoldItalic.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-BalanceYourInnerCrovvn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-BalanceYourInnerCrovvn.a */; };
+		136DA12902F244E8BBA0BFE1 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C88B3337051E4E5884C5D03D /* Montserrat-Light.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2B528963B60D471DB0690F5E /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B71A267BAA4DDAABEE610C /* Montserrat-BoldItalic.ttf */; };
+		4D2BB63BAE3F4D848F630B66 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0287EC82D42D49A8995040E1 /* Montserrat-Bold.ttf */; };
+		518CDC069A6C45109F814F7F /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC970198EE934672AAAA04C0 /* Montserrat-ExtraBold.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		86FDEBF11A40405792B526A7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41D9ECD294334671ABFCE51E /* Montserrat-Regular.ttf */; };
+		D154A2812E9FBF7A000C4E61 /* spiritual-spiritual-music-background-270170.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D154A2802E9FBF7A000C4E61 /* spiritual-spiritual-music-background-270170.mp3 */; };
+		D154A2832E9FBF8C000C4E61 /* meditation-relax-sleep-music-346733.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D154A2822E9FBF8C000C4E61 /* meditation-relax-sleep-music-346733.mp3 */; };
+		D154A2852E9FBF93000C4E61 /* spiritual-healing-music-304093.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D154A2842E9FBF93000C4E61 /* spiritual-healing-music-304093.mp3 */; };
+		D154A2872E9FBF99000C4E61 /* uplifting-inspiring-background-music-303176.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D154A2862E9FBF99000C4E61 /* uplifting-inspiring-background-music-303176.mp3 */; };
+		D154A2892E9FBF9E000C4E61 /* ambient-background-339939.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D154A2882E9FBF9E000C4E61 /* ambient-background-339939.mp3 */; };
+		D154A28B2E9FBFA8000C4E61 /* meditation-music-409195.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D154A28A2E9FBFA8000C4E61 /* meditation-music-409195.mp3 */; };
+		D154A28D2E9FBFEA000C4E61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154A28C2E9FBFEA000C4E61 /* AVFoundation.framework */; };
+		D154A28F2E9FBFFB000C4E61 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154A28E2E9FBFFB000C4E61 /* AVKit.framework */; };
+		D154A2912E9FC005000C4E61 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154A2902E9FC005000C4E61 /* AudioToolbox.framework */; };
+		E64D223ECA66485EBF54BDD8 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F4CC9B0FA642ACA5D72E16 /* Montserrat-SemiBold.ttf */; };
 		ECD1BD84BE9A32837AF86627 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		F86316D92CED4B599CDC3D35 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CC20C95114B9884377975 /* Montserrat-MediumItalic.ttf */; };
+		FAFCC8361A894B948C0120C9 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E96B47EF7A044B7919DB48F /* Montserrat-Black.ttf */; };
+		FF39C1883A554996BE8F8CD8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0B6FAD783BF489D80E52E57 /* Montserrat-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0287EC82D42D49A8995040E1 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BalanceYourInnerCrovvn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalanceYourInnerCrovvn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BalanceYourInnerCrovvn/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BalanceYourInnerCrovvn/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = BalanceYourInnerCrovvn/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-BalanceYourInnerCrovvn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BalanceYourInnerCrovvn.debug.xcconfig"; path = "Target Support Files/Pods-BalanceYourInnerCrovvn/Pods-BalanceYourInnerCrovvn.debug.xcconfig"; sourceTree = "<group>"; };
+		41D9ECD294334671ABFCE51E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		4A5CC20C95114B9884377975 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-BalanceYourInnerCrovvn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BalanceYourInnerCrovvn.release.xcconfig"; path = "Target Support Files/Pods-BalanceYourInnerCrovvn/Pods-BalanceYourInnerCrovvn.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-BalanceYourInnerCrovvn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BalanceYourInnerCrovvn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BalanceYourInnerCrovvn/AppDelegate.swift; sourceTree = "<group>"; };
+		7E96B47EF7A044B7919DB48F /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BalanceYourInnerCrovvn/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8689B690B7E24474A6A6E0F7 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		87F4CC9B0FA642ACA5D72E16 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		A0B6FAD783BF489D80E52E57 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B3B71A267BAA4DDAABEE610C /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C88B3337051E4E5884C5D03D /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		CC970198EE934672AAAA04C0 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D154A2802E9FBF7A000C4E61 /* spiritual-spiritual-music-background-270170.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "spiritual-spiritual-music-background-270170.mp3"; sourceTree = "<group>"; };
+		D154A2822E9FBF8C000C4E61 /* meditation-relax-sleep-music-346733.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meditation-relax-sleep-music-346733.mp3"; sourceTree = "<group>"; };
+		D154A2842E9FBF93000C4E61 /* spiritual-healing-music-304093.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "spiritual-healing-music-304093.mp3"; sourceTree = "<group>"; };
+		D154A2862E9FBF99000C4E61 /* uplifting-inspiring-background-music-303176.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "uplifting-inspiring-background-music-303176.mp3"; sourceTree = "<group>"; };
+		D154A2882E9FBF9E000C4E61 /* ambient-background-339939.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ambient-background-339939.mp3"; sourceTree = "<group>"; };
+		D154A28A2E9FBFA8000C4E61 /* meditation-music-409195.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meditation-music-409195.mp3"; sourceTree = "<group>"; };
+		D154A28C2E9FBFEA000C4E61 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D154A28E2E9FBFFB000C4E61 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D154A2902E9FC005000C4E61 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -32,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D154A2912E9FC005000C4E61 /* AudioToolbox.framework in Frameworks */,
+				D154A28F2E9FBFFB000C4E61 /* AVKit.framework in Frameworks */,
+				D154A28D2E9FBFEA000C4E61 /* AVFoundation.framework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-BalanceYourInnerCrovvn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,10 +95,36 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D154A2902E9FC005000C4E61 /* AudioToolbox.framework */,
+				D154A28E2E9FBFFB000C4E61 /* AVKit.framework */,
+				D154A28C2E9FBFEA000C4E61 /* AVFoundation.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-BalanceYourInnerCrovvn.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31F88D236EC24028B0F42D00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E96B47EF7A044B7919DB48F /* Montserrat-Black.ttf */,
+				0287EC82D42D49A8995040E1 /* Montserrat-Bold.ttf */,
+				CC970198EE934672AAAA04C0 /* Montserrat-ExtraBold.ttf */,
+				C88B3337051E4E5884C5D03D /* Montserrat-Light.ttf */,
+				A0B6FAD783BF489D80E52E57 /* Montserrat-Medium.ttf */,
+				41D9ECD294334671ABFCE51E /* Montserrat-Regular.ttf */,
+				87F4CC9B0FA642ACA5D72E16 /* Montserrat-SemiBold.ttf */,
+				B3B71A267BAA4DDAABEE610C /* Montserrat-BoldItalic.ttf */,
+				4A5CC20C95114B9884377975 /* Montserrat-MediumItalic.ttf */,
+				8689B690B7E24474A6A6E0F7 /* Montserrat-SemiBoldItalic.ttf */,
+				D154A2802E9FBF7A000C4E61 /* spiritual-spiritual-music-background-270170.mp3 */,
+				D154A2822E9FBF8C000C4E61 /* meditation-relax-sleep-music-346733.mp3 */,
+				D154A2842E9FBF93000C4E61 /* spiritual-healing-music-304093.mp3 */,
+				D154A2862E9FBF99000C4E61 /* uplifting-inspiring-background-music-303176.mp3 */,
+				D154A2882E9FBF9E000C4E61 /* ambient-background-339939.mp3 */,
+				D154A28A2E9FBFA8000C4E61 /* meditation-music-409195.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -75,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				31F88D236EC24028B0F42D00 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -158,9 +226,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D154A2852E9FBF93000C4E61 /* spiritual-healing-music-304093.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				ECD1BD84BE9A32837AF86627 /* PrivacyInfo.xcprivacy in Resources */,
+				D154A2812E9FBF7A000C4E61 /* spiritual-spiritual-music-background-270170.mp3 in Resources */,
+				D154A28B2E9FBFA8000C4E61 /* meditation-music-409195.mp3 in Resources */,
+				FAFCC8361A894B948C0120C9 /* Montserrat-Black.ttf in Resources */,
+				4D2BB63BAE3F4D848F630B66 /* Montserrat-Bold.ttf in Resources */,
+				D154A2872E9FBF99000C4E61 /* uplifting-inspiring-background-music-303176.mp3 in Resources */,
+				518CDC069A6C45109F814F7F /* Montserrat-ExtraBold.ttf in Resources */,
+				136DA12902F244E8BBA0BFE1 /* Montserrat-Light.ttf in Resources */,
+				D154A2832E9FBF8C000C4E61 /* meditation-relax-sleep-music-346733.mp3 in Resources */,
+				D154A2892E9FBF9E000C4E61 /* ambient-background-339939.mp3 in Resources */,
+				FF39C1883A554996BE8F8CD8 /* Montserrat-Medium.ttf in Resources */,
+				86FDEBF11A40405792B526A7 /* Montserrat-Regular.ttf in Resources */,
+				E64D223ECA66485EBF54BDD8 /* Montserrat-SemiBold.ttf in Resources */,
+				2B528963B60D471DB0690F5E /* Montserrat-BoldItalic.ttf in Resources */,
+				F86316D92CED4B599CDC3D35 /* Montserrat-MediumItalic.ttf in Resources */,
+				01030CF5C1EC4F36A0442424 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

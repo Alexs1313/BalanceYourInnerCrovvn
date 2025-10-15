@@ -1,28 +1,28 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import { NavigationContainer } from '@react-navigation/native';
+import Toast from 'react-native-toast-message';
+import InnerCrovvnStack from './BalanceYourInnerCrovvn/InnerCrovvnNavigation/InnerCrovvnStack';
+import { ContextProvider } from './BalanceYourInnerCrovvn/InnerCrovvnStore/innerCrovvnContext';
+import InnerCrovvnLoader from './BalanceYourInnerCrovvn/InnerCrovvnComponents/InnerCrovvnLoader';
+import { useEffect, useState } from 'react';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 6000);
+  }, []);
 
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
-  );
-}
+    <NavigationContainer>
+      <ContextProvider>
+        {isLoading ? <InnerCrovvnLoader /> : <InnerCrovvnStack />}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
+        <Toast position="top" topOffset={50} />
+      </ContextProvider>
+    </NavigationContainer>
+  );
+};
 
 export default App;
