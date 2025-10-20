@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 const InnerCrovvnStack = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      {/* <Stack.Screen name="InnerCrovvnEntry" component={InnerCrovvnEntry} /> */}
+      <Stack.Screen name="InnerCrovvnEntry" component={InnerCrovvnEntry} />
       <Stack.Screen name="InnerCrovvnTabs" component={InnerCrovvnTabs} />
       <Stack.Screen
         name="InnerCrovvnArticleDetails"

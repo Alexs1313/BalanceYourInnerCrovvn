@@ -140,8 +140,8 @@ const styles = StyleSheet.create({
     width: '100%',
     backgroundColor: '#1D2D77',
     paddingBottom: 35,
-    paddingTop: 84,
-    paddingHorizontal: 30,
+    paddingTop: 89,
+    paddingHorizontal: 50,
   },
   crovvnsubtitle: {
     fontSize: 15,
@@ -156,6 +156,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
     fontFamily: 'Montserrat-ExtraBold',
-    marginBottom: 32,
+    marginBottom: 36,
   },
 });
