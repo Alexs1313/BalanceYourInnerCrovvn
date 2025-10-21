@@ -69,7 +69,10 @@ const InnerCrovvnEntry = () => {
       source={require('../../assets/images/crovvnonbbg.png')}
       style={styles.crovvnbackground}
     >
-      <ScrollView contentContainerStyle={styles.crovvnscrollcnt}>
+      <ScrollView
+        contentContainerStyle={styles.crovvnscrollcnt}
+        showsVerticalScrollIndicator={false}
+      >
         <View
           style={{ justifyContent: 'flex-end', alignItems: 'center', flex: 1 }}
         >
@@ -95,7 +98,11 @@ const InnerCrovvnEntry = () => {
             )}
           </Animated.View>
 
-          <View style={{ width: '100%' }}>
+          <View
+            style={{
+              width: '100%',
+            }}
+          >
             <InnerCrovvnOnboardCrsl
               crovvnData={crovvnwelcomedta}
               setCurrentCrovvnSlideIdx={setCurrentCrovvnSlideIdx}
@@ -111,7 +118,6 @@ const InnerCrovvnEntry = () => {
 const styles = StyleSheet.create({
   crovvnbackground: {
     flex: 1,
-    resizeMode: 'cover',
     width: '101%',
   },
   crovvnscrollcnt: {

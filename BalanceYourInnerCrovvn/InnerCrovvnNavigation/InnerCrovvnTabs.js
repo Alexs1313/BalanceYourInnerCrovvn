@@ -122,10 +122,10 @@ const InnerCrovvnTabs = () => {
 
 const styles = StyleSheet.create({
   crovvntabbar: {
-    backgroundColor: 'rgba(29, 46, 119, 0.8)',
+    backgroundColor: 'rgba(29, 46, 119, 0.9)',
     elevation: 1,
     borderTopWidth: 1,
-    borderTopColor: 'rgba(29, 46, 119, 0.8)',
+    borderTopColor: 'rgba(29, 46, 119, 0.9)',
     paddingTop: 14,
     paddingBottom: 13,
     justifyContent: 'center',

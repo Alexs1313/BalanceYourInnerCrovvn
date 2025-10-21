@@ -77,7 +77,7 @@ export default function InnerCrovvnOnboardCrsl({
     });
 
     return (
-      <View style={{ width: ITEM_WIDTH, alignItems: 'center' }}>
+      <View style={{ width: ITEM_WIDTH }}>
         <Animated.View
           style={{
             width: ITEM_WIDTH,
@@ -95,6 +95,7 @@ export default function InnerCrovvnOnboardCrsl({
                 flexDirection: 'row',
                 gap: 22,
                 justifyContent: 'center',
+                bottom: 35,
               }}
             >
               {crovvnData.map((_, idx) => (
@@ -137,11 +138,11 @@ export default function InnerCrovvnOnboardCrsl({
 const styles = StyleSheet.create({
   crovvnbrd: {
     borderTopLeftRadius: 50,
-    width: '100%',
     backgroundColor: '#1D2D77',
-    paddingBottom: 35,
-    paddingTop: 89,
+    paddingBottom: 55,
+    paddingTop: 50,
     paddingHorizontal: 50,
+    height: 360,
   },
   crovvnsubtitle: {
     fontSize: 15,
