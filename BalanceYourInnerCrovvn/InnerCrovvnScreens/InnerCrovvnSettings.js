@@ -153,7 +153,11 @@ const InnerCrovvnSettings = () => {
                 <Text style={styles.crovvntitle}>Share App</Text>
                 <TouchableOpacity
                   activeOpacity={0.7}
-                  onPress={() => Linking.openURL('https://www.google.com/')}
+                  onPress={() =>
+                    Linking.openURL(
+                      'https://apps.apple.com/us/app/balance-your-inner-crovvn/id6754274650',
+                    )
+                  }
                 >
                   <Image
                     source={require('../../assets/images/crovvnshrset.png')}
